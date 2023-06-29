@@ -10,16 +10,16 @@
 <body>
     <div class="container">
         <h1>Calculadora Simples - JavaScript</h1>
-        <input type="text" id="num1" placeholder="Primeiro Número">
-        <select name="" id="select">
-            <option value="soma">+</option>
-            <option value="sub">-</option>
-            <option value="mult">*</option>
-            <option value="div">/</option>
-        </select>
-        <input type="text" id="num2" placeholder="Segundo Número">
-        <button id="calc" onclick="calcular()">Calcular</button>
-        <h3 id="result">EPA</h3>
+            <input type="number" id="num1" placeholder="Primeiro Número" required>
+            <select name="" id="select">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="÷">÷</option>
+            </select>
+            <input type="number" id="num2" placeholder="Segundo Número" required>
+            <button id="calc" type="submit" onsubmit="calcular()">Calcular</button>
+        <h3 id="result"></h3>
     </div>
 </body>
 </html>
